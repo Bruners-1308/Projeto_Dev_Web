@@ -1,0 +1,81 @@
+http://www.maujor.com/tutorial/layout-css-passo-a-passo.php
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+  <head>    
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+   
+	<meta charset="utf-8">   
+    
+	<title> Dólar fecha a R$ 4,19 e bate novo recorde histórico de fechamento </title>
+	
+	<link rel="stylesheet" type "text/css" href="style.css"> 
+	
+  </head>
+  
+  <body>
+	<div id="header">	
+		<h1> Economia </h1>
+	</div>
+	
+	<div id="conteudo">  
+			<h1> Dólar fecha a R$ 4,19 e bate novo recorde histórico de fechamento </h1>
+				<img src="images/dolar.jpg" />
+				<figcaption id="legenda"> Dólar fecha a R$ 4,19, maior valor desde o início do Plano Real </figcaption>
+			<p>
+				O dólar fechou em alta nesta quinta-feira (13) e atingiu novo valor máximo em relação ao real. Os investidores monitoram a cena eleitoral e o movimento do câmbio dos demais países emergentes, após a Turquia aumentar os juros, tirando a pressão sobre a moeda do país.
+			</p>
+			
+			<p>
+				A moeda norte-americana subiu 1,11%, negociada a R$ 4,1952 na venda. É o maior valor de fechamento já registrado em relação ao real. Antes disso, a maior cotação havia sido em 21 de janeiro de 2016, quando a moeda chegou a R$ 4,163.
+				Na máxima do dia, a moeda chegou a R$ 4,2046. O maior valor intradia já registrado foi no dia 24 de setembro de 2015, a R$ 4,2484. Já na mínima, a moeda chegou a recuar a R$ 4,1256.
+				No acumulado do ano, a moeda dos EUA já sobe 26,61%. No mês de setembro, avança 3,02% e, na semana, 2,41%.
+				O dólar turismo fechou negociado a R$ 4,3634, sem considerar a cobrança de IOF (Imposto sobre Operações Financeiras).
+			</p>			
+
+			
+			<h2> Ação do BC </h2>
+			
+			<p>
+				Nesta quinta (13), o Banco Central brasileiro ofertou e vendeu integralmente 10,9 mil swaps cambiais tradicionais, equivalentes à venda futura de dólares, rolando US$ 4,360 bilhões do total de US$ 9,801 bilhões que vencem em outubro.
+				Se mantiver essa oferta diária e vendê-la até o final do mês, terá feito a rolagem integral.
+			</p>
+			
+				
+			
+			<img src="images/variacao.jpg" />
+	</div> 
+  
+  	<div id="footer">  		
+G1 Economia  	
+	</div>
+  
+  </body>
+
+
+
+#header {
+	background: #CD0000;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+}  
+
+#footer {
+	background: #CD0000;
+	text-align: right;
+	color: #FFFFFF;
+}  
+
+#conteudo {
+	text-align: justify;
+	max-width:100%;
+
+}
+
+#legenda {
+	font-size: 0.9em;
+	

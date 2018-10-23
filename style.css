@@ -1,0 +1,47 @@
+.cabecalho{
+			background: #CD0000;
+			text-align: center;
+			color: #FFFFFF;
+			text-transform: uppercase;
+			font-family: opensans, helvetica, arial, sans-serif;
+			font-weight: 400;
+		}
+	
+.footer{
+			background: #CD0000;
+			text-align: right;
+			color: #FFFFFF;
+			font-family: opensans, helvetica, arial, sans-serif;
+			font-weight: 400;
+			
+		}
+		
+.conteudo{
+			text-align: justify;
+			max-width:70%;
+			margin: 0 auto;
+			display:table;
+			font-family: opensans, helvetica, arial, sans-serif;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		
+.legenda{
+				font-size: 0.8em;
+				text-align: center;
+				font-family: opensans, helvetica, arial, sans-serif;
+		}
+		
+.imagens{
+				max-width: 100%;
+				margin: 0 auto;
+				display: table;
+				width: 600px;
+				height: 400px;
+		
+		}
+		
+.titulos{
+				text-align: center;
+				font-family: 'opensans-light', sans-serif;
+		}
